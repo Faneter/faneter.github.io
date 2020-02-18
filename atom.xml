@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://faneter.github.io/"/>
-  <updated>2020-02-18T02:09:03.810Z</updated>
+  <updated>2020-02-18T02:50:06.791Z</updated>
   <id>http://faneter.github.io/</id>
   
   <author>
@@ -17,27 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo使用</title>
-    <link href="http://faneter.github.io/2020/02/17/Hexo%E4%BD%BF%E7%94%A8/"/>
-    <id>http://faneter.github.io/2020/02/17/Hexo%E4%BD%BF%E7%94%A8/</id>
-    <published>2020-02-17T10:03:22.000Z</published>
-    <updated>2020-02-18T02:09:03.810Z</updated>
+    <title>Hexo美化</title>
+    <link href="http://faneter.github.io/2020/02/18/Hexo%E7%BE%8E%E5%8C%96/"/>
+    <id>http://faneter.github.io/2020/02/18/Hexo%E7%BE%8E%E5%8C%96/</id>
+    <published>2020-02-18T02:46:35.000Z</published>
+    <updated>2020-02-18T02:50:06.791Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><ul><li><h3 id="启动Hexo"><a href="#启动Hexo" class="headerlink" title="启动Hexo"></a>启动Hexo</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></li><li><h3 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post "Post_Name"</span><br></pre></td></tr></table></figure></li><li><h3 id="上传到Github"><a href="#上传到Github" class="headerlink" title="上传到Github"></a>上传到Github</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="功能性"><a href="#功能性" class="headerlink" title="功能性"></a>功能性</h2><h2 id="视觉性"><a href="#视觉性" class="headerlink" title="视觉性"></a>视觉性</h2><h2 id="社交性"><a href="#社交性" class="headerlink" title="社交性"></a>社交性</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;命令&quot;&gt;&lt;a href=&quot;#命令&quot; class=&quot;headerlink&quot; title=&quot;命令&quot;&gt;&lt;/a&gt;命令&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;h3 id=&quot;启动Hexo&quot;&gt;&lt;a href=&quot;#启动Hexo&quot; class=&quot;headerlink&quot; title=&quot;启动He
+        &lt;h2 id=&quot;功能性&quot;&gt;&lt;a href=&quot;#功能性&quot; class=&quot;headerlink&quot; title=&quot;功能性&quot;&gt;&lt;/a&gt;功能性&lt;/h2&gt;&lt;h2 id=&quot;视觉性&quot;&gt;&lt;a href=&quot;#视觉性&quot; class=&quot;headerlink&quot; title=&quot;视觉性&quot;&gt;&lt;/a&gt;视觉性&lt;/h
       
     
     </summary>
     
     
     
+      <category term="Hexo" scheme="http://faneter.github.io/tags/Hexo/"/>
+    
+      <category term="美化" scheme="http://faneter.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo使用</title>
+    <link href="http://faneter.github.io/2020/02/17/Hexo%E4%BD%BF%E7%94%A8/"/>
+    <id>http://faneter.github.io/2020/02/17/Hexo%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-02-17T10:03:22.000Z</published>
+    <updated>2020-02-18T03:04:37.579Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo的使用教程</p><a id="more"></a><h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><ul><li><h3 id="启动Hexo"><a href="#启动Hexo" class="headerlink" title="启动Hexo"></a>启动Hexo</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></li><li><h3 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post "Post_Name"</span><br></pre></td></tr></table></figure></li><li><h3 id="上传到Github"><a href="#上传到Github" class="headerlink" title="上传到Github"></a>上传到Github</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>或是使用</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d -g</span><br></pre></td></tr></table></figure><p>来代替上面的两个命令</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Hexo的使用教程&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
       <category term="教程" scheme="http://faneter.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Hexo" scheme="http://faneter.github.io/tags/Hexo/"/>
     
   </entry>
   
