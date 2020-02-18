@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://faneter.github.io/"/>
-  <updated>2020-02-18T01:15:56.668Z</updated>
+  <updated>2020-02-18T01:36:19.620Z</updated>
   <id>http://faneter.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://faneter.github.io/2020/02/17/Hexo%E4%BD%BF%E7%94%A8/"/>
     <id>http://faneter.github.io/2020/02/17/Hexo%E4%BD%BF%E7%94%A8/</id>
     <published>2020-02-17T10:03:22.000Z</published>
-    <updated>2020-02-18T01:15:56.668Z</updated>
+    <updated>2020-02-18T01:36:19.620Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><ul><li>启动Hexo<br><code>hexo s</code></li><li>创建文章<br><code>hexo new post &quot;Post_Name&quot;</code></li><li>上传到Github</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><ul><li>启动Hexo<br><code>hexo s</code></li><li>创建文章<br><code>hexo new post &quot;Post_Name&quot;</code></li><li>上传到Github<br><code>hexo g</code></li></ul>]]></content>
     
     <summary type="html">
     
