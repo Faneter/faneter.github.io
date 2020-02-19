@@ -47,6 +47,7 @@
 </script>
 
   <title>Hexo使用 | Faneter</title>
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
   
 
 
@@ -419,7 +420,7 @@
 
   
   
-  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script color='0,0,0' opacity='0.7' zIndex='-1' count='50' src="/lib/canvas-nest/canvas-nest.min.js"></script>
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
@@ -460,9 +461,9 @@
   
     
       <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-      <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
       <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
       <script type="text/javascript">
+      (function(){
         const gitalk = new Gitalk({
           clientID: 'ef8e90e322ad00128a0d',
           clientSecret: 'd85b255706911ef722e812ea27fe8c8bc89d201b',
@@ -476,7 +477,12 @@
           createIssueManually: true,
           distractionFreeMode: false
         })
-        gitalk.render('gitalk-container')
+        window.onhashchange = function(event){
+          if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
+            location.reload()
+          }
+        }
+      })()
       </script>
     
   
