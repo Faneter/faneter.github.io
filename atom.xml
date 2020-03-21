@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.faneter.top/"/>
-  <updated>2020-02-27T08:40:51.933Z</updated>
+  <updated>2020-03-21T08:04:27.420Z</updated>
   <id>https://blog.faneter.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Electron + Vue + TypeScript开发桌面程序</title>
+    <link href="https://blog.faneter.top/2020/03/21/%E4%BD%BF%E7%94%A8Electron-Vue-TypeScript%E5%BC%80%E5%8F%91%E6%A1%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/"/>
+    <id>https://blog.faneter.top/2020/03/21/%E4%BD%BF%E7%94%A8Electron-Vue-TypeScript%E5%BC%80%E5%8F%91%E6%A1%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/</id>
+    <published>2020-03-21T07:49:03.000Z</published>
+    <updated>2020-03-21T08:04:27.420Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h3><ul><li>yarne</li><li>node<br>e<br>版本能用就行,推荐最新版</li></ul><h3 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h3><p>安装<code>vue-cli</code></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn global add @vue/cli</span><br></pre></td></tr></table></figure><h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><p>先创建一个<code>Vue</code>项目,</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue create app</span><br></pre></td></tr></table></figure><p>出现如下界面</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">Vue CLI v4.2.3</span><br><span class="line">? Please pick a preset: (Use arrow keys)</span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> default (babel, eslint)</span></span><br><span class="line">  Manually select features</span><br></pre></td></tr></table></figure><p>按下箭头选中<code>Manually select features</code>,按下回车</p><p>出现如下界面</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">? Check the features needed for your project: (Press &lt;space&gt; to select, &lt;a&gt; to toggle all, &lt;i&gt; to invert selection)</span><br><span class="line"><span class="meta">&gt;</span><span class="bash">\(*\) Babel</span></span><br><span class="line"> \( \) TypeScript</span><br><span class="line"> \( \) Progressive Web App (PWA) Support</span><br><span class="line"> \( \) Router</span><br><span class="line"> \( \) Vuex</span><br><span class="line"> \( \) CSS Pre-processors</span><br><span class="line"> \(*\) Linter / Formatter</span><br><span class="line"> \( \) Unit Testing</span><br><span class="line"> \( \) E2E Testing</span><br></pre></td></tr></table></figure><p>使用上下箭头来移动光标,按空格键选中</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">? Check the features needed for your project: (Press &lt;space&gt; to select, &lt;a&gt; to toggle all, &lt;i&gt; to invert selection)</span><br><span class="line"><span class="meta">&gt;</span><span class="bash">\(*\) Babel \(可选,推荐\)</span></span><br><span class="line"> \(*\) TypeScript \(必选\)</span><br><span class="line"> \( \) Progressive Web App \(PWA\) Support \(可选\)</span><br><span class="line"> \(*\) Router \(可选,推荐\)</span><br><span class="line"> \(*\) Vuex \(可选,推荐\)</span><br><span class="line"> \( \) CSS Pre-processors \(可选\)</span><br><span class="line"> \(*\) Linter / Formatter \(可选,推荐\)</span><br><span class="line"> \(*\) Unit Testing \(可选,推荐\)</span><br><span class="line"> \( \) E2E Testing \(可选\)</span><br></pre></td></tr></table></figure><p>选择后按下回车<br>之后会出现一个<code>app</code>目录,然后</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd app</span><br><span class="line">vue add electron-builder</span><br></pre></td></tr></table></figure><p>之后只需使用</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn electron:serve</span><br></pre></td></tr></table></figure><p>即可运行</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;h3 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h3&gt;&lt;ul&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo美化</title>
