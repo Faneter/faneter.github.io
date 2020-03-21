@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.faneter.top/2020/03/21/%E4%BD%BF%E7%94%A8Electron-Vue-TypeScript%E5%BC%80%E5%8F%91%E6%A1%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/</loc>
+    <loc>https://blog.faneter.top/2020/02/18/Hexo%E7%BE%8E%E5%8C%96/</loc>
     
-    <lastmod>2020-03-21T08:04:27.420Z</lastmod>
+    <lastmod>2020-03-21T08:08:50.929Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.faneter.top/2020/02/17/Hexo%E4%BD%BF%E7%94%A8/</loc>
     
-    <lastmod>2020-03-01T11:55:48.271Z</lastmod>
+    <lastmod>2020-03-21T08:08:13.472Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.faneter.top/2020/03/21/%E4%BD%BF%E7%94%A8Electron-Vue-TypeScript%E5%BC%80%E5%8F%91%E6%A1%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/</loc>
+    
+    <lastmod>2020-03-21T08:07:23.610Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>https://blog.faneter.top/tags/index.html</loc>
     
     <lastmod>2020-02-29T06:09:08.389Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.faneter.top/2020/02/18/Hexo%E7%BE%8E%E5%8C%96/</loc>
-    
-    <lastmod>2020-02-27T08:40:51.933Z</lastmod>
     
   </url>
   
