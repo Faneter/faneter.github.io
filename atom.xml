@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.faneter.top/"/>
-  <updated>2020-03-22T13:00:19.021Z</updated>
+  <updated>2020-03-22T13:04:11.030Z</updated>
   <id>https://blog.faneter.top/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://blog.faneter.top/2020/03/22/Altium-Designer%E5%8E%9F%E7%90%86%E5%9B%BE%E5%B8%83%E7%BA%BF%E6%96%B9%E6%B3%95/"/>
     <id>https://blog.faneter.top/2020/03/22/Altium-Designer%E5%8E%9F%E7%90%86%E5%9B%BE%E5%B8%83%E7%BA%BF%E6%96%B9%E6%B3%95/</id>
     <published>2020-03-22T09:11:52.000Z</published>
-    <updated>2020-03-22T13:00:19.021Z</updated>
+    <updated>2020-03-22T13:04:11.030Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="直接布线"><a href="#直接布线" class="headerlink" title="直接布线"></a>直接布线</h2><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><p>直观</p><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><p>如果线多的话,就会十分复杂混乱</p><h2 id="使用网络标签"><a href="#使用网络标签" class="headerlink" title="使用网络标签"></a>使用网络标签</h2><h3 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h3><p>简洁,不复杂</p><h3 id="缺点-1"><a href="#缺点-1" class="headerlink" title="缺点"></a>缺点</h3><p>不直观</p><p>建议两者结合</p><table><thead><tr><th></th><th>直接布线</th><th>网络标签</th></tr></thead><tbody><tr><td>优点</td><td>直观</td><td>简洁,不复杂</td></tr><tr><td>缺点</td><td>如果线多的话,就会十分复杂混乱</td><td>不直观</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<h2 id="直接布线"><a href="#直接布线" class="headerlink" title="直接布线"></a>直接布线</h2><h2 id="使用网络标签"><a href="#使用网络标签" class="headerlink" title="使用网络标签"></a>使用网络标签</h2><h2 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h2><table><thead><tr><th></th><th>直接布线</th><th>网络标签</th></tr></thead><tbody><tr><td>优点</td><td>直观</td><td>简洁,不复杂</td></tr><tr><td>缺点</td><td>如果线多的话,就会十分复杂混乱</td><td>不直观</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;直接布线&quot;&gt;&lt;a href=&quot;#直接布线&quot; class=&quot;headerlink&quot; title=&quot;直接布线&quot;&gt;&lt;/a&gt;直接布线&lt;/h2&gt;&lt;h3 id=&quot;优点&quot;&gt;&lt;a href=&quot;#优点&quot; class=&quot;headerlink&quot; title=&quot;优点&quot;&gt;&lt;/a&gt;优点&lt;/h
+        &lt;h2 id=&quot;直接布线&quot;&gt;&lt;a href=&quot;#直接布线&quot; class=&quot;headerlink&quot; title=&quot;直接布线&quot;&gt;&lt;/a&gt;直接布线&lt;/h2&gt;&lt;h2 id=&quot;使用网络标签&quot;&gt;&lt;a href=&quot;#使用网络标签&quot; class=&quot;headerlink&quot; title=&quot;使用网络标
       
     
     </summary>
