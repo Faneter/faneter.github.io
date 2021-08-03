@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>如何配置环境变量</title>
+    <link href="/posts/197f515.html"/>
+    <url>/posts/197f515.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="打开系统属性"><a href="#打开系统属性" class="headerlink" title="打开系统属性"></a>打开系统属性</h2><p>1.打开开始菜单</p><p>2.输入<code>环境变量</code></p><p>3.点击<code>编辑系统环境变量</code>或<code>编辑账户的环境变量</code></p><p><img src="/posts/197f515/1.png"></p><h2 id="编辑环境变量"><a href="#编辑环境变量" class="headerlink" title="编辑环境变量"></a>编辑环境变量</h2><p>1.点击系统属性中的<code>环境变量(N)...</code></p><p><img src="/posts/197f515/2.png" alt="2"></p><p>2.在<code>XXX的用户变量(U)</code>中,找到<code>Path</code></p><p>3.点击<code>编辑(E)...</code></p><p><img src="/posts/197f515/3.png" alt="3"></p><p>4.点击<code>新建(N)</code></p><p>5.输入路径,回车</p><p>6.点击<code>确定</code></p><p><img src="/posts/197f515/4.png" alt="4"></p><p>7.点击<code>确定</code></p><p><img src="/posts/197f515/5.png" alt="5"></p><p>8.点击<code>确定</code></p><p><img src="/posts/197f515/6.png" alt="6"></p><p>9.完成</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>电脑操作</category>
+      
+      <category>Windows</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Windows</tag>
+      
+      <tag>环境变量</tag>
+      
+      <tag>电脑操作</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Java Swing 主题(L&amp;F)推荐 - FlatLaf</title>
     <link href="/posts/eb3f2228.html"/>
     <url>/posts/eb3f2228.html</url>
