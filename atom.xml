@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Faneter&#39;s Blog</title>
+  
+  <subtitle>一切伟大的行动和思想，都有一个微不足道的开始。—加缪</subtitle>
+  <link href="https://blog.faneter.top/atom.xml" rel="self"/>
+  
+  <link href="https://blog.faneter.top/"/>
+  <updated>2021-08-03T05:59:40.121Z</updated>
+  <id>https://blog.faneter.top/</id>
+  
+  <author>
+    <name>Faneter</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何配置环境变量</title>
+    <link href="https://blog.faneter.top/posts/197f515.html"/>
+    <id>https://blog.faneter.top/posts/197f515.html</id>
+    <published>2021-08-03T05:43:54.000Z</published>
+    <updated>2021-08-03T05:59:40.121Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="打开系统属性"><a href="#打开系统属性" class="headerlink" title="打开系统属性"></a>打开系统属性</h2><p>1.打开开始菜单</p><p>2.输入<code>环境变量</code></p><p>3.点击<code>编辑系统环境变量</code>或<code>编辑账户的环境变量</code></p><p><img src="/posts/197f515/1.png"></p><h2 id="编辑环境变量"><a href="#编辑环境变量" class="headerlink" title="编辑环境变量"></a>编辑环境变量</h2><p>1.点击系统属性中的<code>环境变量(N)...</code></p><p><img src="/posts/197f515/2.png" alt="2"></p><p>2.在<code>XXX的用户变量(U)</code>中,找到<code>Path</code></p><p>3.点击<code>编辑(E)...</code></p><p><img src="/posts/197f515/3.png" alt="3"></p><p>4.点击<code>新建(N)</code></p><p>5.输入路径,回车</p><p>6.点击<code>确定</code></p><p><img src="/posts/197f515/4.png" alt="4"></p><p>7.点击<code>确定</code></p><p><img src="/posts/197f515/5.png" alt="5"></p><p>8.点击<code>确定</code></p><p><img src="/posts/197f515/6.png" alt="6"></p><p>9.完成</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;打开系统属性&quot;&gt;&lt;a href=&quot;#打开系统属性&quot; class=&quot;headerlink&quot; title=&quot;打开系统属性&quot;&gt;&lt;/a&gt;打开系统属性&lt;/h2&gt;&lt;p&gt;1.打开开始菜单&lt;/p&gt;
+&lt;p&gt;2.输入&lt;code&gt;环境变量&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;3.点击&lt;code</summary>
+      
+    
+    
+    
+    <category term="电脑操作" scheme="https://blog.faneter.top/categories/%E7%94%B5%E8%84%91%E6%93%8D%E4%BD%9C/"/>
+    
+    <category term="Windows" scheme="https://blog.faneter.top/categories/%E7%94%B5%E8%84%91%E6%93%8D%E4%BD%9C/Windows/"/>
+    
+    
+    <category term="Windows" scheme="https://blog.faneter.top/tags/Windows/"/>
+    
+    <category term="环境变量" scheme="https://blog.faneter.top/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"/>
+    
+    <category term="电脑操作" scheme="https://blog.faneter.top/tags/%E7%94%B5%E8%84%91%E6%93%8D%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java Swing 主题(L&amp;F)推荐 - FlatLaf</title>
+    <link href="https://blog.faneter.top/posts/eb3f2228.html"/>
+    <id>https://blog.faneter.top/posts/eb3f2228.html</id>
+    <published>2021-08-03T03:31:42.000Z</published>
+    <updated>2021-08-03T03:54:47.381Z</updated>
+    
+    <content type="html"><![CDATA[<p>Java Swing的默认主题并不好看,甚至可以说是丑,但Swing是支持第三方主题包的,而FlatLaf是一个不错的选择,而且JetBrains家的IDE也在用这个主题</p><span id="more"></span><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>FlatLaf支持4种主题,包括<code>Flat Light</code>,<code>Flat Dark</code>,<code>Flat IntelliJ</code>,<code>Flat Darcula</code><br>个人比较推荐<code>Flat IntelliJ(亮色)</code>和<code>Flat Darcula(暗色)</code></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p><a href="https://www.formdev.com/flatlaf/">FlatLaf官网</a><br><a href="https://mvnrepository.com/artifact/com.formdev/flatlaf">jar包下载地址</a><br><a href="https://download.formdev.com/flatlaf/flatlaf-demo-latest.jar">Demo下载地址</a></p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="方式一"><a href="#方式一" class="headerlink" title="方式一"></a>方式一</h3><p>方便,但无法在主题间切换</p><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java"><span class="hljs-comment">//Flat Light</span><br>FlatLightLaf.install();<br><br><span class="hljs-comment">//Flat Dark</span><br>FlatDarkLaf.install();<br><br><span class="hljs-comment">//Flat IntelliJ</span><br>FlatIntelliJLaf.install();<br><br><span class="hljs-comment">//Flat Darcula</span><br>FlatDarculaLaf.install();<br></code></pre></div></td></tr></table></figure><h3 id="方式二"><a href="#方式二" class="headerlink" title="方式二"></a>方式二</h3><p>可以较方便的切换主题</p><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java"><span class="hljs-comment">//Flat Light</span><br><span class="hljs-keyword">try</span> &#123;<br>    UIManager.setLookAndFeel( <span class="hljs-keyword">new</span> FlatLightLaf() );<br>&#125; <span class="hljs-keyword">catch</span>( Exception ex ) &#123;<br>    System.err.println( <span class="hljs-string">&quot;Failed to initialize LaF&quot;</span> );<br>&#125;<br><br><span class="hljs-comment">//Flat Dark</span><br><span class="hljs-keyword">try</span> &#123;<br>    UIManager.setLookAndFeel( <span class="hljs-keyword">new</span> FlatDarkLaf() );<br>&#125; <span class="hljs-keyword">catch</span>( Exception ex ) &#123;<br>    System.err.println( <span class="hljs-string">&quot;Failed to initialize LaF&quot;</span> );<br>&#125;<br><br><span class="hljs-comment">//Flat IntelliJ</span><br><span class="hljs-keyword">try</span> &#123;<br>    UIManager.setLookAndFeel( <span class="hljs-keyword">new</span> FlatIntelliJLaf() );<br>&#125; <span class="hljs-keyword">catch</span>( Exception ex ) &#123;<br>    System.err.println( <span class="hljs-string">&quot;Failed to initialize LaF&quot;</span> );<br>&#125;<br><br><span class="hljs-comment">//Flat Darcula</span><br><span class="hljs-keyword">try</span> &#123;<br>    UIManager.setLookAndFeel( <span class="hljs-keyword">new</span> FlatDarculaLaf() );<br>&#125; <span class="hljs-keyword">catch</span>( Exception ex ) &#123;<br>    System.err.println( <span class="hljs-string">&quot;Failed to initialize LaF&quot;</span> );<br>&#125;<br></code></pre></div></td></tr></table></figure><h2 id="Demo预览"><a href="#Demo预览" class="headerlink" title="Demo预览"></a>Demo预览</h2><p><img src="/posts/eb3f2228/light.png" alt="FlatLight"></p><p><img src="/posts/eb3f2228/dark.png" alt="FlatDark"></p><p><img src="/posts/eb3f2228/intellij.png" alt="FlatIntelliJ"></p><p><img src="/posts/eb3f2228/darcula.png" alt="FlatDarcula"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Java Swing的默认主题并不好看,甚至可以说是丑,但Swing是支持第三方主题包的,而FlatLaf是一个不错的选择,而且JetBrains家的IDE也在用这个主题&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.faneter.top/categories/Java/"/>
+    
+    <category term="Swing" scheme="https://blog.faneter.top/categories/Java/Swing/"/>
+    
+    
+    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="Java" scheme="https://blog.faneter.top/tags/Java/"/>
+    
+    <category term="Swing" scheme="https://blog.faneter.top/tags/Swing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用bat让你的Hexo博客操作更加简单</title>
+    <link href="https://blog.faneter.top/posts/2ef72440.html"/>
+    <id>https://blog.faneter.top/posts/2ef72440.html</id>
+    <published>2021-08-03T03:04:42.000Z</published>
+    <updated>2021-08-03T05:39:46.488Z</updated>
+    
+    <content type="html"><![CDATA[<p>在使用Hexo写博客时,我们经常需要输入大量的命令,于是我们可以考虑用批处理文件来处理</p><span id="more"></span><h2 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h2><p>传统形式下,我们创建文章需要用到命令</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo new post <span class="hljs-string">&quot;文章名&quot;</span><br></code></pre></div></td></tr></table></figure><p>需要输入的字符比较多,于是我们选择一个目录,建立<code>new.bat</code>文件,输入以下内容</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">call <span class="hljs-built_in">cd</span> 你的博客路径<br>call <span class="hljs-built_in">set</span> /p name=<br>call hexo new post <span class="hljs-string">&quot;%name%&quot;</span><br>pause<br></code></pre></div></td></tr></table></figure><h2 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h2><p>传统形式下,在本地部署Hexo需要用到以下命令</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo clean<br>hexo g<br>hexo s<br></code></pre></div></td></tr></table></figure><p>我们在先前的目录下,建立<code>stt.bat</code>文件,输入以下内容</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">call <span class="hljs-built_in">cd</span> 你的博客路径<br>call hexo clean<br>call hexo g<br>call hexo s<br>pause<br></code></pre></div></td></tr></table></figure><h2 id="部署到Github"><a href="#部署到Github" class="headerlink" title="部署到Github"></a>部署到Github</h2><p>传统形式下,在部署博客到Github需要用到以下命令</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo clean<br>hexo g<br>hexo d<br></code></pre></div></td></tr></table></figure><p>我们在先前的目录下,建立<code>sbmt.bat</code>文件,输入以下内容</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">call <span class="hljs-built_in">cd</span> 你的博客路径<br>call hexo clean<br>call hexo g<br>call hexo d<br>pause<br></code></pre></div></td></tr></table></figure><h2 id="添加环境变量"><a href="#添加环境变量" class="headerlink" title="添加环境变量"></a>添加环境变量</h2><p>在环境变量<code>Path</code>中,添加你的批处理文件目录,之后就可以使用<code>Win + R</code>,在输入批处理文件名操作你的Hexo博客了</p><h2 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h2><p>文件名可自定义,但要注意不能与<code>Path</code>环境变量中原有的冲突,否则打开时需要加上文件后缀名<code>.bat</code></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在使用Hexo写博客时,我们经常需要输入大量的命令,于是我们可以考虑用批处理文件来处理&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网站" scheme="https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="博客" scheme="https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
+    
+    <category term="建站" scheme="https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+    <category term="bat" scheme="https://blog.faneter.top/tags/bat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java Swing 用法总结 - JScrollPane</title>
+    <link href="https://blog.faneter.top/posts/c131de2.html"/>
+    <id>https://blog.faneter.top/posts/c131de2.html</id>
+    <published>2021-08-03T02:18:22.000Z</published>
+    <updated>2021-08-03T03:30:17.192Z</updated>
+    
+    <content type="html"><![CDATA[<p>JScrollPane是一个可以显示滚动条的面板</p><span id="more"></span><h2 id="基础用法"><a href="#基础用法" class="headerlink" title="基础用法"></a>基础用法</h2><h3 id="setViewportView"><a href="#setViewportView" class="headerlink" title="setViewportView"></a>setViewportView</h3><p>JScrollPane不能使用<code>add</code>来显示内容,需要通过<code>setViewportView</code>来显示</p><p>也可以使用JScrollPane的构造方法来显示内容</p><h4 id="具体用法"><a href="#具体用法" class="headerlink" title="具体用法"></a>具体用法</h4><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java"><span class="hljs-comment">// 方法一</span><br>JScrollPane scrollPane = <span class="hljs-keyword">new</span> JScrollPane();<br>JPanel panel = <span class="hljs-keyword">new</span> JPanel();<br>scrollPane.setViewportView(panel);<br></code></pre></div></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java"><span class="hljs-comment">// 方法二</span><br>JPanel panel = <span class="hljs-keyword">new</span> JPanel();<br>JScrollPane scrollPane = <span class="hljs-keyword">new</span> JScrollPane(panel);<br></code></pre></div></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java"><span class="hljs-comment">// 反例,无法使用</span><br>JScrollPane scrollPane = <span class="hljs-keyword">new</span> JScrollPane();<br>JPanel panel = <span class="hljs-keyword">new</span> JPanel();<br>scrollPane.add(panel);<br></code></pre></div></td></tr></table></figure><h3 id="setHorizontalScrollBarPolicy和setVerticalScrollBarPolicy"><a href="#setHorizontalScrollBarPolicy和setVerticalScrollBarPolicy" class="headerlink" title="setHorizontalScrollBarPolicy和setVerticalScrollBarPolicy"></a>setHorizontalScrollBarPolicy和setVerticalScrollBarPolicy</h3><p>用来设置滚动条何时显示</p><p><em>注:Horizontal为水平,Vertical为垂直</em></p><p>这两个方法接受JScrollPane的几个常量,分别是</p><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java"><span class="hljs-comment">// 自动出现</span><br>JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED<br>JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED<br><br><span class="hljs-comment">// 总是出现</span><br>JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS<br>JScrollPane.VERTICAL_SCROLLBAR_ALWAYS<br><br><span class="hljs-comment">// 永不出现</span><br>JScrollPane.HORIZONTAL_SCROLLBAR_NEVER<br>JScrollPane.VERTICAL_SCROLLBAR_NEVER<br><br><span class="hljs-comment">// 注:JScrollPane的这两个属性的默认值均为自动出现</span><br></code></pre></div></td></tr></table></figure><h4 id="具体用法-1"><a href="#具体用法-1" class="headerlink" title="具体用法"></a>具体用法</h4><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java">JScrollPane scrollPane = <span class="hljs-keyword">new</span> JScrollPane();<br>JPanel panel = <span class="hljs-keyword">new</span> JPanel();<br><span class="hljs-comment">// ... 为panel添加内容</span><br>scrollPane.setViewportView(panel);<br>scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);<br>scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);<br></code></pre></div></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;JScrollPane是一个可以显示滚动条的面板&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.faneter.top/categories/Java/"/>
+    
+    <category term="Swing" scheme="https://blog.faneter.top/categories/Java/Swing/"/>
+    
+    
+    <category term="Java" scheme="https://blog.faneter.top/tags/Java/"/>
+    
+    <category term="Swing" scheme="https://blog.faneter.top/tags/Swing/"/>
+    
+    <category term="JScrollPane" scheme="https://blog.faneter.top/tags/JScrollPane/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo的配置和使用以及主题的选择</title>
+    <link href="https://blog.faneter.top/posts/13612.html"/>
+    <id>https://blog.faneter.top/posts/13612.html</id>
+    <published>2021-08-02T01:43:21.000Z</published>
+    <updated>2021-08-03T04:48:23.253Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo的配置和使用以及主题的选择</p><span id="more"></span><h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><p>软件需要Git,Node.js,Yarn(可选)</p><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p>到<a href="https://gitforwindows.org/">Git官网</a>下载安装即可</p><p>安装完成后在命令行输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">git -v<br></code></pre></div></td></tr></table></figure><p>查看是否安装成功</p><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p>到<a href="https://nodejs.org/en/download/">Node.js官网</a>下载安装即可</p><p>安装完成后在命令行输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">node -v<br>npm -v<br></code></pre></div></td></tr></table></figure><p>查看是否安装成功</p><h3 id="Yarn"><a href="#Yarn" class="headerlink" title="Yarn"></a>Yarn</h3><p>安装完Node.js后,在命令行输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">npm install -g yarn<br></code></pre></div></td></tr></table></figure><p>安装</p><p>安装完成后在命令行输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">yarn -v<br></code></pre></div></td></tr></table></figure><p>查看是否安装成功</p><p>安装完后需添加环境变量,在命令行内输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">yarn global bin<br></code></pre></div></td></tr></table></figure><p>复制输出目录,并添加到<code>Path</code></p><h2 id="Hexo配置"><a href="#Hexo配置" class="headerlink" title="Hexo配置"></a>Hexo配置</h2><h3 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><p>在命令行中输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">yarn global add hexo-cli<br></code></pre></div></td></tr></table></figure><p>安装Hexo</p><p>安装完后选择一个目录,输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo init NAME<br></code></pre></div></td></tr></table></figure><p>此处的<code>NAME</code>替换为你想要的博客目录名</p><p>然后在命令行中输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> NAME<br></code></pre></div></td></tr></table></figure><p>此处<code>NAME</code>同上,然后输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">yarn install<br></code></pre></div></td></tr></table></figure><h3 id="Hexo运行"><a href="#Hexo运行" class="headerlink" title="Hexo运行"></a>Hexo运行</h3><p>在命令行中输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo g<br>hexo s<br></code></pre></div></td></tr></table></figure><p>成功运行后可在<a href="http://localhost:4000/">http://localhost:4000/</a>访问</p><h3 id="其他配置"><a href="#其他配置" class="headerlink" title="其他配置"></a>其他配置</h3><h4 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h4><p>在博客文件夹中有一个名为<code>_config.yml</code>的文件,打开<br>主要修改的有: </p><ul><li><code>title</code>,修改为你想要的网站名称</li><li><code>author</code>,修改为你的昵称</li><li><code>language</code>,修改为<code>zh-CN</code></li><li><code>url</code>,修改为你的网站链接,后面有介绍</li></ul><h4 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h4><h5 id="hexo-abbrlink"><a href="#hexo-abbrlink" class="headerlink" title="hexo-abbrlink"></a>hexo-abbrlink</h5><p><code>可以生成简洁的唯一永久文章链接</code></p><p>在命令行中输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">yarn add hexo-abbrlink<br></code></pre></div></td></tr></table></figure><p>然后在<code>_config.yml</code>中修改<code>permalink: :year/:month/:day/:title/</code>为</p><figure class="highlight yaml"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs yaml"><span class="hljs-attr">permalink:</span> <span class="hljs-string">posts/:abbrlink.html</span>  <span class="hljs-comment"># 此处可以自己设置，也可以直接使用 :/abbrlink</span><br><span class="hljs-attr">abbrlink:</span><br>    <span class="hljs-attr">alg:</span> <span class="hljs-string">crc32</span>   <span class="hljs-comment">#算法： crc16(default) and crc32</span><br>    <span class="hljs-attr">rep:</span> <span class="hljs-string">hex</span>     <span class="hljs-comment">#进制： dec(default) and hex</span><br></code></pre></div></td></tr></table></figure><h5 id="hexo-asset-image"><a href="#hexo-asset-image" class="headerlink" title="hexo-asset-image"></a>hexo-asset-image</h5><p><code>可以使文章访问图片更加方便</code></p><p>Markdown插入图片的方式是<code>![](image.jpg)</code>,但Hexo不支持这种方式,此插件可以使其支持这种方式</p><p>在命令行中输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">yarn add hexo-asset-image<br></code></pre></div></td></tr></table></figure><p>然后在<code>_config.yml</code>中修改<code>post_asset_folder: false</code>为<code>true</code></p><h2 id="Hexo使用"><a href="#Hexo使用" class="headerlink" title="Hexo使用"></a>Hexo使用</h2><h3 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h3><p>在<a href="https://github.com/">Github</a>登录或注册账号</p><p>创建一个名为<code>username.github.io</code>的仓库,此处<code>username</code>为你的用户名,全小写</p><h3 id="生成SSH"><a href="#生成SSH" class="headerlink" title="生成SSH"></a>生成SSH</h3><p>在命令行中输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;yourname&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;youremail&quot;</span><br></code></pre></div></td></tr></table></figure><p>此处<code>yourname</code>和<code>youremail</code>是你的Github用户名和注册邮箱</p><p>然后在命令行中输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">ssh-keygen -t rsa -C <span class="hljs-string">&quot;youremail&quot;</span><br></code></pre></div></td></tr></table></figure><p>此处<code>youremail</code>同上</p><p>他会告诉你SSH key的生成目录,找到这个目录,复制其中<code>id_rsa.pub</code>里的内容</p><p>打开<a href="https://github.com/settings/keys">Github的设置页面</a>,点击<code>New SSH key</code>,输入你刚复制的内容,完成</p><h3 id="Hexo设置"><a href="#Hexo设置" class="headerlink" title="Hexo设置"></a>Hexo设置</h3><p>在博客文件夹中打开命令行,输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">yarn add hexo-deployer-git<br></code></pre></div></td></tr></table></figure><p>在<code>_config.yml</code>的文件中,翻到最后</p><p>可以看到</p><figure class="highlight yaml"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs yaml"><span class="hljs-comment"># Deployment</span><br><span class="hljs-comment">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">&#x27;&#x27;</span><br></code></pre></div></td></tr></table></figure><p>修改为</p><figure class="highlight yaml"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs yaml"><span class="hljs-comment"># Deployment</span><br><span class="hljs-comment">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">https://github.com/你的用户名/你的用户名小写.github.io.git</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">master</span><br></code></pre></div></td></tr></table></figure><p>然后在命令行中输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo clean<br>hexo generate<br>hexo deploy<br></code></pre></div></td></tr></table></figure><p>即可运行</p><p>可在<code>你的用户名小写.github.io</code>中访问</p><h3 id="Hexo写作"><a href="#Hexo写作" class="headerlink" title="Hexo写作"></a>Hexo写作</h3><p>在命令行中输入</p><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo new post NAME<br></code></pre></div></td></tr></table></figure><p>此处<code>NAME</code>为你想要的文章名</p><h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><h3 id="主题的安装"><a href="#主题的安装" class="headerlink" title="主题的安装"></a>主题的安装</h3><p>找到你喜欢的主题的Github链接,在其<code>README.md</code>中有介绍如何安装</p><h3 id="主题推荐"><a href="#主题推荐" class="headerlink" title="主题推荐"></a>主题推荐</h3><ul><li><a href="https://github.com/next-theme/hexo-theme-next/">NexT</a></li><li><a href="https://github.com/fluid-dev/hexo-theme-fluid">Fluid</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Hexo的配置和使用以及主题的选择&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网站" scheme="https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="博客" scheme="https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
+    
+    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="建站" scheme="https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+</feed>
