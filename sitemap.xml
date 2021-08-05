@@ -116,6 +116,13 @@
   </url>
   
   <url>
+    <loc>https://blog.faneter.top/tags/JScrollPane/</loc>
+    <lastmod>2021-08-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.faneter.top/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2021-08-05</lastmod>
     <changefreq>daily</changefreq>
@@ -131,13 +138,6 @@
   
   <url>
     <loc>https://blog.faneter.top/tags/%E4%B8%87%E4%BC%97%E5%8D%A1/</loc>
-    <lastmod>2021-08-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.faneter.top/tags/JScrollPane/</loc>
     <lastmod>2021-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -181,14 +181,14 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://blog.faneter.top/categories/Java/</loc>
     <lastmod>2021-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/categories/Java/</loc>
+    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
