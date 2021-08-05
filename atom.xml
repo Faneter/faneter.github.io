@@ -6,7 +6,7 @@
   <link href="https://blog.faneter.top/atom.xml" rel="self"/>
   
   <link href="https://blog.faneter.top/"/>
-  <updated>2021-08-03T05:59:40.121Z</updated>
+  <updated>2021-08-05T00:23:04.237Z</updated>
   <id>https://blog.faneter.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中国移动香港万众卡使用体验</title>
+    <link href="https://blog.faneter.top/posts/67e0d57.html"/>
+    <id>https://blog.faneter.top/posts/67e0d57.html</id>
+    <published>2021-08-04T23:55:03.000Z</published>
+    <updated>2021-08-05T00:23:04.237Z</updated>
+    
+    <content type="html"><![CDATA[<p>前几天我在淘宝上买了一张中国移动香港的万众卡,昨天才到货,现在介绍一下它的使用体验</p><p><img src="/posts/67e0d57/card_1.png"></p><p><img src="/posts/67e0d57/card_2.png"></p><h2 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h2><p>拿到卡之后,需要在激活期限内激活</p><p>在拨号界面输入<code>*#130#</code>即可激活</p><p>激活后,建议输入<code>*102*123456#</code>重置服务密码,<code>123456</code>改为你的密码</p><h2 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h2><p>在大陆地区可以正常接收和发送短信,电话</p><p>接受免费,发送收费,而且价格不便宜,不建议使用</p><p>我在我的手机上开启移动数据后,发现无法使用3G/4G,我推测是没有流量导致的</p><p>当然流量费也很贵,同样不推荐使用</p><h2 id="注册香港服务"><a href="#注册香港服务" class="headerlink" title="注册香港服务"></a>注册香港服务</h2><p>在我使用的软件需要用到香港账号的中</p><ul><li>bilibili:可以注册,但无法观看港澳台地区限定番剧</li><li>AlipayHK:可以注册并正常使用</li><li>MyLink:可以注册并正常使用</li><li>在港区Apple ID中,无法绑定此号码为支付方式,但可以使用AlipayHK<img src="/posts/67e0d57/3.png"></li></ul><h2 id="话费充值与消费"><a href="#话费充值与消费" class="headerlink" title="话费充值与消费"></a>话费充值与消费</h2><p>支持国区支付宝支付,也可以在淘宝上找人代付</p><p>每月固定费$2</p><p>每180天需要充值$50续期180天</p><p>剩余的话费可以打电话,发短信,买流量,但除此之外无法用到其他地方</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;前几天我在淘宝上买了一张中国移动香港的万众卡,昨天才到货,现在介绍一下它的使用体验&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/67e0d57/card_1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/67e0d57/card_2.png&quot;&gt;&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="生活" scheme="https://blog.faneter.top/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="中国移动" scheme="https://blog.faneter.top/tags/%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/"/>
+    
+    <category term="万众卡" scheme="https://blog.faneter.top/tags/%E4%B8%87%E4%BC%97%E5%8D%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>如何配置环境变量</title>
