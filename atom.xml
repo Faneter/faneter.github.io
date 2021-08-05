@@ -123,11 +123,11 @@
     <category term="Swing" scheme="https://blog.faneter.top/categories/Java/Swing/"/>
     
     
-    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
-    
     <category term="Java" scheme="https://blog.faneter.top/tags/Java/"/>
     
     <category term="Swing" scheme="https://blog.faneter.top/tags/Swing/"/>
+    
+    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
@@ -204,9 +204,9 @@
     <category term="博客" scheme="https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
-    
     <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
     
     <category term="建站" scheme="https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/"/>
     
