@@ -200,7 +200,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      505 字
+      653 字
     </span>
   
 
@@ -210,7 +210,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      6
+      7
        分钟
     </span>
   
@@ -302,6 +302,15 @@
 <p><img src="/posts/fec9a86e/2.png" srcset="/img/loading.gif" lazyload alt="我的效果"></p>
 </li>
 </ol>
+<h2 id="配置CloudFlare"><a href="#配置CloudFlare" class="headerlink" title="配置CloudFlare"></a>配置CloudFlare</h2><p>若先前在CloudFlare添加过网站,则需要在CloudFlare中删除</p>
+<p>然后打开<a target="_blank" rel="noopener" href="https://cdn.wzfou.com/">面板 | CloudFlare CDN合作接入管理平台-挖站否 – (wzfou.com)</a>登陆,添加你的域名</p>
+<p>点击<code>DNS管理</code>,点击<code>添加新记录</code>,记录内容按你的网站需要</p>
+<p>完成后在下面有一个<code>CNAME接入</code>,有一个主机名和<code>CNAME</code></p>
+<p><img src="/posts/fec9a86e/3.png" srcset="/img/loading.gif" lazyload></p>
+<p>打开<a target="_blank" rel="noopener" href="https://console.dnspod.cn/dns/list">DNSPod</a>进入你的域名,点击<code>添加记录</code></p>
+<p>记录类型为<code>CNAME</code>,记录值为上面的<code>CNAME</code>值</p>
+<p>保存即可</p>
+<p>如有需要,可到<a href="/posts/b65808c8.html#CloudFlare%E5%85%B6%E4%BB%96%E8%AE%BE%E7%BD%AE">我的文章-使用CloudFlare加速你的网站</a>中优化</p>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://hostmonit.com/cloudflare-select-ip-plus/">CloudFlare自选IP PLUS - 全球主机监控 (hostmonit.com)</a>
 <a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
             </div>
