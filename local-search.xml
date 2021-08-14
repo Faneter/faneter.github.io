@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>Java Swing 主题 L&amp;F FlatLaf 特殊用法</title>
+    <link href="/posts/70e7768c.html"/>
+    <url>/posts/70e7768c.html</url>
+    
+    <content type="html"><![CDATA[<p>FlatLaf是一个漂亮的主题,这一点在我的文章<a href="https://blog.faneter.top/posts/eb3f2228.html">Java Swing 主题(L&amp;F)推荐 - FlatLaf - Faneter’s Blog</a>中即可体现</p><p>但美中不足的是,许多常用的设置并未默认开启,下面是一些常见的问题及解决方法</p><h2 id="窗口最大-最小化动画不显示"><a href="#窗口最大-最小化动画不显示" class="headerlink" title="窗口最大/最小化动画不显示"></a>窗口最大/最小化动画不显示</h2><p>在尝试了官方Demo后,我发现窗口最大/最小化动画是可以显示的,然而,在我自己的项目中,这并无法显示</p><p>我认为这是我自己的问题</p><p>在查阅官方文档后,我找到了这个选项<code>flatlaf.useJetBrainsCustomDecorations</code></p><p>于是,仅需使用代码</p><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java">System.setProperty(<span class="hljs-string">&quot;flatlaf.useJetBrainsCustomDecorations&quot;</span>, <span class="hljs-string">&quot;false&quot;</span>);<br></code></pre></div></td></tr></table></figure><p>即可解决</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Java</category>
+      
+      <category>Swing</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Java</tag>
+      
+      <tag>Swing</tag>
+      
+      <tag>主题</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>CloudFlare免费用户国内加速</title>
     <link href="/posts/fec9a86e.html"/>
     <url>/posts/fec9a86e.html</url>
@@ -165,11 +196,11 @@
     
     <tags>
       
-      <tag>主题</tag>
-      
       <tag>Java</tag>
       
       <tag>Swing</tag>
+      
+      <tag>主题</tag>
       
     </tags>
     
@@ -260,9 +291,9 @@
       
       <tag>建站</tag>
       
-      <tag>Hexo</tag>
-      
       <tag>主题</tag>
+      
+      <tag>Hexo</tag>
       
     </tags>
     
