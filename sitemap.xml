@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.faneter.top/posts/eb3f2228.html</loc>
+    
+    <lastmod>2021-08-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.faneter.top/posts/70e7768c.html</loc>
     
     <lastmod>2021-08-14</lastmod>
@@ -65,13 +72,6 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/posts/eb3f2228.html</loc>
-    
-    <lastmod>2021-08-03</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.faneter.top/about/index.html</loc>
     
     <lastmod>2021-08-02</lastmod>
@@ -102,14 +102,7 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/tags/Java/</loc>
-    <lastmod>2021-08-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.faneter.top/tags/Swing/</loc>
+    <loc>https://blog.faneter.top/tags/Hexo/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -123,7 +116,14 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/tags/Hexo/</loc>
+    <loc>https://blog.faneter.top/tags/Java/</loc>
+    <lastmod>2021-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.faneter.top/tags/Swing/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -216,14 +216,14 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/categories/Java/Swing/</loc>
+    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://blog.faneter.top/categories/Java/Swing/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
