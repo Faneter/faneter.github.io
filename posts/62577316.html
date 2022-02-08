@@ -16,12 +16,11 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="FlatLaf是一个漂亮的主题,这一点在我的文章Java Swing 主题(L&amp;amp;F)推荐 - FlatLaf - Faneter’s Blog中即可体现
-但美中不足的是,许多常用的设置并未默认开启,下面是一些常见的问题及解决方法">
+  <meta name="description" content="">
   <meta name="author" content="Faneter">
   <meta name="keywords" content="">
   
-  <title>Java Swing 主题 L&amp;F FlatLaf 特殊用法 - Faneter&#39;s Blog</title>
+  <title>Hexo 博客取消发布不想发布的文章 - Faneter&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -179,7 +178,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Java Swing 主题 L&F FlatLaf 特殊用法">
+            <span class="h2" id="subtitle" title="Hexo 博客取消发布不想发布的文章">
               
             </span>
 
@@ -189,8 +188,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-08-14 10:10" pubdate>
-        2021年8月14日 上午
+      <time datetime="2022-02-08 10:11" pubdate>
+        2022年2月8日 上午
       </time>
     </span>
   
@@ -201,7 +200,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      174 字
+      118 字
     </span>
   
 
@@ -249,44 +248,22 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Java Swing 主题 L&amp;F FlatLaf 特殊用法</h1>
+            <h1 style="display: none">Hexo 博客取消发布不想发布的文章</h1>
             
             <div class="markdown-body">
-              <p>FlatLaf是一个漂亮的主题,这一点在我的文章<a href="https://blog.faneter.top/posts/eb3f2228.html">Java Swing 主题(L&amp;F)推荐 - FlatLaf - Faneter’s Blog</a>中即可体现</p>
-<p>但美中不足的是,许多常用的设置并未默认开启,下面是一些常见的问题及解决方法</p>
-<span id="more"></span>
-
-<h2 id="窗口最大-最小化动画不显示"><a href="#窗口最大-最小化动画不显示" class="headerlink" title="窗口最大/最小化动画不显示"></a>窗口最大/最小化动画不显示</h2><p>在尝试了官方Demo后,我发现窗口最大/最小化动画是可以显示的,然而,在我自己的项目中,这并无法显示</p>
-<p>我认为这是我自己的问题</p>
-<p>在查阅官方文档后,我找到了这个选项<code>flatlaf.useJetBrainsCustomDecorations</code></p>
-<p>于是,仅需使用代码</p>
-<figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java">System.setProperty(<span class="hljs-string">&quot;flatlaf.useJetBrainsCustomDecorations&quot;</span>, <span class="hljs-string">&quot;false&quot;</span>);<br></code></pre></div></td></tr></table></figure>
-
-<p>即可解决</p>
+              <p>通常情况下,我们有一些因某些原因不想发布的文章,原因可能很多,例如还没写好<br>而Hexo默认是发布所有的文章的<br>这时我们可以使用Hexo提供的’skip_render’<br>先在’source’目录中建立一个文件夹’temp’,里面是你不想发布的文章<br>在Hexo的’_config.yml’中找到’skip-render’,在其后加上’”temp/**”‘</p>
+<p>这样就完成了,可以尝试本地编译查看效果</p>
 
             </div>
             <hr>
             <div>
               <div class="post-metas mb-3">
                 
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="/categories/Java/">Java</a>
-                    
-                      <a class="hover-with-bg" href="/categories/Java/Swing/">Swing</a>
-                    
-                  </div>
-                
                 
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E4%B8%BB%E9%A2%98/">主题</a>
-                    
-                      <a class="hover-with-bg" href="/tags/Java/">Java</a>
-                    
-                      <a class="hover-with-bg" href="/tags/Swing/">Swing</a>
+                      <a class="hover-with-bg" href="/tags/Hexo/">Hexo</a>
                     
                   </div>
                 
@@ -303,18 +280,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/posts/62577316.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Hexo 博客取消发布不想发布的文章</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/posts/fec9a86e.html">
-                        <span class="hidden-mobile">CloudFlare免费用户国内加速</span>
+                      <a href="/posts/70e7768c.html">
+                        <span class="hidden-mobile">Java Swing 主题 L&F FlatLaf 特殊用法</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

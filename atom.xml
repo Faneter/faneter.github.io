@@ -6,7 +6,7 @@
   <link href="https://blog.faneter.top/atom.xml" rel="self"/>
   
   <link href="https://blog.faneter.top/"/>
-  <updated>2021-08-14T02:30:54.694Z</updated>
+  <updated>2022-02-08T02:19:28.775Z</updated>
   <id>https://blog.faneter.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo 博客取消发布不想发布的文章</title>
+    <link href="https://blog.faneter.top/posts/62577316.html"/>
+    <id>https://blog.faneter.top/posts/62577316.html</id>
+    <published>2022-02-08T02:11:48.000Z</published>
+    <updated>2022-02-08T02:19:28.775Z</updated>
+    
+    <content type="html"><![CDATA[<p>通常情况下,我们有一些因某些原因不想发布的文章,原因可能很多,例如还没写好<br>而Hexo默认是发布所有的文章的<br>这时我们可以使用Hexo提供的’skip_render’<br>先在’source’目录中建立一个文件夹’temp’,里面是你不想发布的文章<br>在Hexo的’_config.yml’中找到’skip-render’,在其后加上’”temp/**”‘</p><p>这样就完成了,可以尝试本地编译查看效果</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;通常情况下,我们有一些因某些原因不想发布的文章,原因可能很多,例如还没写好&lt;br&gt;而Hexo默认是发布所有的文章的&lt;br&gt;这时我们可以使用Hexo提供的’skip_render’&lt;br&gt;先在’source’目录中建立一个文件夹’temp’,里面是你不想发布的文章&lt;br&gt;在H</summary>
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Java Swing 主题 L&amp;F FlatLaf 特殊用法</title>
@@ -229,9 +251,9 @@
     <category term="博客" scheme="https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="建站" scheme="https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/"/>
-    
     <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
+    
+    <category term="建站" scheme="https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/"/>
     
     <category term="bat" scheme="https://blog.faneter.top/tags/bat/"/>
     
@@ -283,11 +305,11 @@
     <category term="博客" scheme="https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="建站" scheme="https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/"/>
-    
     <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
     
     <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="建站" scheme="https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/"/>
     
   </entry>
   

@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Hexo 博客取消发布不想发布的文章</title>
+    <link href="/posts/62577316.html"/>
+    <url>/posts/62577316.html</url>
+    
+    <content type="html"><![CDATA[<p>通常情况下,我们有一些因某些原因不想发布的文章,原因可能很多,例如还没写好<br>而Hexo默认是发布所有的文章的<br>这时我们可以使用Hexo提供的’skip_render’<br>先在’source’目录中建立一个文件夹’temp’,里面是你不想发布的文章<br>在Hexo的’_config.yml’中找到’skip-render’,在其后加上’”temp/**”‘</p><p>这样就完成了,可以尝试本地编译查看效果</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Java Swing 主题 L&amp;F FlatLaf 特殊用法</title>
     <link href="/posts/70e7768c.html"/>
     <url>/posts/70e7768c.html</url>
@@ -227,9 +246,9 @@
     
     <tags>
       
-      <tag>建站</tag>
-      
       <tag>Hexo</tag>
+      
+      <tag>建站</tag>
       
       <tag>bat</tag>
       
@@ -289,11 +308,11 @@
     
     <tags>
       
-      <tag>建站</tag>
-      
       <tag>Hexo</tag>
       
       <tag>主题</tag>
+      
+      <tag>建站</tag>
       
     </tags>
     
