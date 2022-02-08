@@ -102,13 +102,6 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
@@ -117,6 +110,13 @@
   
   <url>
     <loc>https://blog.faneter.top/tags/CDN/</loc>
+    <lastmod>2022-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -216,14 +216,14 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8A%A0%E9%80%9F/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8A%A0%E9%80%9F/</loc>
+    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
