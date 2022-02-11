@@ -6,7 +6,7 @@
   <link href="https://blog.faneter.top/atom.xml" rel="self"/>
   
   <link href="https://blog.faneter.top/"/>
-  <updated>2022-02-08T02:19:28.775Z</updated>
+  <updated>2022-02-11T05:02:55.719Z</updated>
   <id>https://blog.faneter.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>对于网页电脑无法打开而手机可以的问题的解决</title>
+    <link href="https://blog.faneter.top/posts/9166b9f2.html"/>
+    <id>https://blog.faneter.top/posts/9166b9f2.html</id>
+    <published>2022-02-11T04:54:23.000Z</published>
+    <updated>2022-02-11T05:02:55.719Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天我在玩战地一的过程中,突然想要自定一下图章,于是打开战地小助手的网页版,发现一直无法连接而我再用手机打开却发现一切正常</p><p>在接近半小时的查找后,我终于找到了解决办法,只需要关闭Windows的<code>Path MTU Discovery</code>功能即可</p><p>下面是关闭方法</p><p>首先按下<code>Win+R</code>,输入<code>regedit</code>并回车,打开注册表</p><p>在注册表上方的地址栏输入<code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters</code></p><p>找到其中的<code>EnablePMTUDiscovery</code>,双击将值改为<code>0</code>,然后重启电脑即可</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><p>[1] <a href="https://www.zhihu.com/question/23627621/answer/109547248">电脑上部分网页打不开，但是手机可以，如何解决？ - 车小胖的回答 - 知乎</a></p></li><li><p>[2] <a href="https://cniter.github.io/posts/376168c6.html">解决无法打开某个网页问题 | Shaun’s Space (cniter.github.io)</a></p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天我在玩战地一的过程中,突然想要自定一下图章,于是打开战地小助手的网页版,发现一直无法连接而我再用手机打开却发现一切正常&lt;/p&gt;
+&lt;p&gt;在接近半小时的查找后,我终于找到了解决办法,只需要关闭Windows的&lt;code&gt;Path MTU Discovery&lt;/code&gt;功能</summary>
+      
+    
+    
+    
+    
+    <category term="Windows" scheme="https://blog.faneter.top/tags/Windows/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo 博客取消发布不想发布的文章</title>
@@ -58,11 +81,11 @@
     <category term="Swing" scheme="https://blog.faneter.top/categories/Java/Swing/"/>
     
     
-    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
-    
     <category term="Java" scheme="https://blog.faneter.top/tags/Java/"/>
     
     <category term="Swing" scheme="https://blog.faneter.top/tags/Swing/"/>
+    
+    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
@@ -224,11 +247,11 @@
     <category term="Swing" scheme="https://blog.faneter.top/categories/Java/Swing/"/>
     
     
-    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
-    
     <category term="Java" scheme="https://blog.faneter.top/tags/Java/"/>
     
     <category term="Swing" scheme="https://blog.faneter.top/tags/Swing/"/>
+    
+    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
@@ -251,9 +274,9 @@
     <category term="博客" scheme="https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
-    
     <category term="建站" scheme="https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+    <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
     
     <category term="bat" scheme="https://blog.faneter.top/tags/bat/"/>
     
@@ -305,9 +328,9 @@
     <category term="博客" scheme="https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
-    
     <category term="建站" scheme="https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+    <category term="Hexo" scheme="https://blog.faneter.top/tags/Hexo/"/>
     
     <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
     

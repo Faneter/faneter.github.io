@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>对于网页电脑无法打开而手机可以的问题的解决</title>
+    <link href="/posts/9166b9f2.html"/>
+    <url>/posts/9166b9f2.html</url>
+    
+    <content type="html"><![CDATA[<p>今天我在玩战地一的过程中,突然想要自定一下图章,于是打开战地小助手的网页版,发现一直无法连接而我再用手机打开却发现一切正常</p><p>在接近半小时的查找后,我终于找到了解决办法,只需要关闭Windows的<code>Path MTU Discovery</code>功能即可</p><p>下面是关闭方法</p><p>首先按下<code>Win+R</code>,输入<code>regedit</code>并回车,打开注册表</p><p>在注册表上方的地址栏输入<code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters</code></p><p>找到其中的<code>EnablePMTUDiscovery</code>,双击将值改为<code>0</code>,然后重启电脑即可</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><p>[1] <a href="https://www.zhihu.com/question/23627621/answer/109547248">电脑上部分网页打不开，但是手机可以，如何解决？ - 车小胖的回答 - 知乎</a></p></li><li><p>[2] <a href="https://cniter.github.io/posts/376168c6.html">解决无法打开某个网页问题 | Shaun’s Space (cniter.github.io)</a></p></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Windows</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hexo 博客取消发布不想发布的文章</title>
     <link href="/posts/62577316.html"/>
     <url>/posts/62577316.html</url>
@@ -41,11 +60,11 @@
     
     <tags>
       
-      <tag>主题</tag>
-      
       <tag>Java</tag>
       
       <tag>Swing</tag>
+      
+      <tag>主题</tag>
       
     </tags>
     
@@ -215,11 +234,11 @@
     
     <tags>
       
-      <tag>主题</tag>
-      
       <tag>Java</tag>
       
       <tag>Swing</tag>
+      
+      <tag>主题</tag>
       
     </tags>
     
@@ -246,9 +265,9 @@
     
     <tags>
       
-      <tag>Hexo</tag>
-      
       <tag>建站</tag>
+      
+      <tag>Hexo</tag>
       
       <tag>bat</tag>
       
@@ -308,9 +327,9 @@
     
     <tags>
       
-      <tag>Hexo</tag>
-      
       <tag>建站</tag>
+      
+      <tag>Hexo</tag>
       
       <tag>主题</tag>
       
