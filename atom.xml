@@ -6,7 +6,7 @@
   <link href="https://blog.faneter.top/atom.xml" rel="self"/>
   
   <link href="https://blog.faneter.top/"/>
-  <updated>2022-02-11T05:02:55.719Z</updated>
+  <updated>2022-07-03T05:58:20.631Z</updated>
   <id>https://blog.faneter.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java Swing 常见bug解决</title>
+    <link href="https://blog.faneter.top/posts/a16e92a.html"/>
+    <id>https://blog.faneter.top/posts/a16e92a.html</id>
+    <published>2022-07-03T05:48:56.000Z</published>
+    <updated>2022-07-03T05:58:20.631Z</updated>
+    
+    <content type="html"><![CDATA[<p>在使用Swing时,会遇到各种各样的bug,而这些大部分是由于jdk的bug引起的,本文来记录我遇到过的bug及其解决方法</p><h2 id="文本框输入中文后排版混乱"><a href="#文本框输入中文后排版混乱" class="headerlink" title="文本框输入中文后排版混乱"></a>文本框输入中文后排版混乱</h2><p><img src="/posts/a16e92a/%E9%97%AE%E9%A2%981.gif" alt="问题"></p><p>这是jdk的bug</p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>在<code>main</code>方法的开头添加如下代码</p><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java">System.setProperty(<span class="hljs-string">&quot;sun.java2d.noddraw&quot;</span>, <span class="hljs-string">&quot;true&quot;</span>); <span class="hljs-comment">// 修复输入中文时的排版混乱问题</span><br></code></pre></div></td></tr></table></figure><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="/posts/a16e92a/%E6%95%88%E6%9E%9C1.gif" alt="效果"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在使用Swing时,会遇到各种各样的bug,而这些大部分是由于jdk的bug引起的,本文来记录我遇到过的bug及其解决方法&lt;/p&gt;
+&lt;h2 id=&quot;文本框输入中文后排版混乱&quot;&gt;&lt;a href=&quot;#文本框输入中文后排版混乱&quot; class=&quot;headerlink&quot; title=</summary>
+      
+    
+    
+    
+    <category term="Java" scheme="https://blog.faneter.top/categories/Java/"/>
+    
+    <category term="Swing" scheme="https://blog.faneter.top/categories/Java/Swing/"/>
+    
+    
+    <category term="Java" scheme="https://blog.faneter.top/tags/Java/"/>
+    
+    <category term="Swing" scheme="https://blog.faneter.top/tags/Swing/"/>
+    
+  </entry>
   
   <entry>
     <title>对于网页电脑无法打开而手机可以的问题的解决</title>
@@ -81,11 +110,11 @@
     <category term="Swing" scheme="https://blog.faneter.top/categories/Java/Swing/"/>
     
     
+    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    
     <category term="Java" scheme="https://blog.faneter.top/tags/Java/"/>
     
     <category term="Swing" scheme="https://blog.faneter.top/tags/Swing/"/>
-    
-    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
@@ -247,11 +276,11 @@
     <category term="Swing" scheme="https://blog.faneter.top/categories/Java/Swing/"/>
     
     
+    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    
     <category term="Java" scheme="https://blog.faneter.top/tags/Java/"/>
     
     <category term="Swing" scheme="https://blog.faneter.top/tags/Swing/"/>
-    
-    <category term="主题" scheme="https://blog.faneter.top/tags/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
