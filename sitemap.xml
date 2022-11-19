@@ -151,7 +151,7 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/tags/JScrollPane/</loc>
+    <loc>https://blog.faneter.top/tags/JList/</loc>
     <lastmod>2022-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -179,7 +179,14 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/tags/JList/</loc>
+    <loc>https://blog.faneter.top/tags/JScrollPane/</loc>
+    <lastmod>2022-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.faneter.top/tags/bat/</loc>
     <lastmod>2022-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -201,13 +208,6 @@
   
   <url>
     <loc>https://blog.faneter.top/tags/%E7%94%B5%E8%84%91%E6%93%8D%E4%BD%9C/</loc>
-    <lastmod>2022-11-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.faneter.top/tags/bat/</loc>
     <lastmod>2022-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
