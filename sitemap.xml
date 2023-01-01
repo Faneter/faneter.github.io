@@ -116,6 +116,13 @@
 
   
   <url>
+    <loc>https://blog.faneter.top/tags/Hexo/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2023-01-01</lastmod>
     <changefreq>daily</changefreq>
@@ -124,13 +131,6 @@
   
   <url>
     <loc>https://blog.faneter.top/tags/CDN/</loc>
-    <lastmod>2023-01-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.faneter.top/tags/Hexo/</loc>
     <lastmod>2023-01-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
