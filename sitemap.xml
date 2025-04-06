@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.faneter.top/private_links/index.html</loc>
+    <loc>https://blog.faneter.top/about/index.html</loc>
     
-    <lastmod>2023-04-05</lastmod>
+    <lastmod>2025-04-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.faneter.top/tools/%E6%9A%B4%E5%87%BB%E7%88%86%E4%BC%A4%E6%9C%80%E4%BC%98%E8%AE%A1%E7%AE%97.html</loc>
+    
+    <lastmod>2025-04-06</lastmod>
     
   </url>
   
@@ -106,13 +113,6 @@
     
   </url>
   
-  <url>
-    <loc>https://blog.faneter.top/about/index.html</loc>
-    
-    <lastmod>2021-08-02</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>https://blog.faneter.top/</loc>
@@ -123,6 +123,13 @@
 
   
   <url>
+    <loc>https://blog.faneter.top/tags/Hexo/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.faneter.top/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>daily</changefreq>
@@ -131,13 +138,6 @@
   
   <url>
     <loc>https://blog.faneter.top/tags/CDN/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.faneter.top/tags/Hexo/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -200,13 +200,6 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/tags/bat/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.faneter.top/tags/Windows/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>daily</changefreq>
@@ -227,24 +220,17 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://blog.faneter.top/tags/bat/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8A%A0%E9%80%9F/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -258,7 +244,14 @@
   </url>
   
   <url>
-    <loc>https://blog.faneter.top/categories/%E7%94%B5%E8%84%91%E6%93%8D%E4%BD%9C/</loc>
+    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8A%A0%E9%80%9F/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.faneter.top/categories/%E7%BD%91%E7%AB%99/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -266,6 +259,13 @@
   
   <url>
     <loc>https://blog.faneter.top/categories/Java/Swing/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.faneter.top/categories/%E7%94%B5%E8%84%91%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
